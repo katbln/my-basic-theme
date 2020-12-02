@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    
+    <h1><?php bloginfo('title'); ?></h1>
 </body>
 
 </html>
