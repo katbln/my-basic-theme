@@ -1,18 +1,8 @@
-/*----------------------------
-Theme Name: Kathleen Portfolio
-------------------------------*/
-
-/*---------------------
-RESET
----------------------*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/*
+Theme Name: My Theme
+Author: Kathleen Rolke
+*/ 
 
 body {
-background-color: red;
-color: white;    
+    background: red;
 }

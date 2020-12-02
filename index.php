@@ -1,1 +1,1 @@
-hello World
+Dies wird eine Infografik
