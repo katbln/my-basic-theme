@@ -1,9 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Statischer Titel</title>
+    <title><?php bloginfo('title'); ?></title>
 </head>
+
+<body>
     
+</body>
 
 </html>
