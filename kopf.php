@@ -9,8 +9,6 @@ Template Name: kopf
 <head>
     <title><?php bloginfo('title'); ?></title>
     <?php wp_head() ?>
-    <link rel="stylsheet" href="style.css">
-
     <style>
         .kopf img {
             width: 100%;
@@ -22,7 +20,7 @@ Template Name: kopf
 <body>
     <section class="Kopf">
         <figure>
-            <img src="my-basic-theme/kopf-zelle.svg" width=100% alt="Infografik in Form eines Kopfes">
+            <img src="img/kopf-zelle.svg" width=100% alt="Infografik in Form eines Kopfes">
         </figure>
     </section>
 </body>
