@@ -17,15 +17,19 @@ p,ul,ol {
     padding:1em 20px;
     }
 
+nav 
+    position: sticky;
+}
+
 nav ul{
 	list-style: none;
 	padding:0;
-	border-top: 1px dotted white;
+	border-top: 1px dotted black;
 }
 nav ul a {
 	display: block;
 	padding:16px 0;
-	border-bottom: 1px dotted white;
+	border-bottom: 1px dotted black;
 	color: #FFFFFF;
 	text-decoration: none;
 	font-size: 15px;
