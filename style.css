@@ -2,3 +2,34 @@
 Theme Name: My Basic Theme
 Author: Kathleen Rolke
 */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,
+p,ul,ol {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding:1em 20px;
+    }
+
+nav ul{
+	list-style: none;
+	padding:0;
+	border-top: 1px dotted white;
+}
+nav ul a {
+	display: block;
+	padding:16px 0;
+	border-bottom: 1px dotted white;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 15px;
+}
+nav ul a:hover {
+	color: #C6C6C6;
+}
