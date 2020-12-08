@@ -1,22 +1,92 @@
-<?php
-/*
-Template Name: kopf
-*/
-?>
 <!DOCTYPE html>
 <html lang="de">
 
 <head>
     <meta charset="utf-8">
     <title>Infografik</title>
+    <!--    <link rel="stylesheet" href="style.css">-->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        section.infografik {
+            position: relative;
+        }
+
+        section.infografik img {
+            width: 120vw;
+            margin-left: -20vw;
+        }
+        
+        section.infografik ul,
+        section.infografik ul li {
+            position: absolute;
+        }
+
+        section.infografik ul li {
+            border: 1px dotted red;
+            font-size: 1.5vw;
+            width:40vw;
+        }
+        
+        section.infografik ul {
+            border: 1px dotted red;
+            width: 100vw;
+            height: 80vw;
+        }
+
+        section.infografik ul li:nth-child(1){
+            top: 11.4vw;
+            left:3vw;
+            list-style-type: none;
+            transform: rotate(-99deg);    
+        }
+        
+        section.infografik ul li:nth-child(2){
+            top: 9.3vw;
+            left:14vw;
+            list-style-type: none;
+            transform: rotate(-91deg);       
+        }
+        
+        section.infografik ul li:nth-child(3){
+            top: 10.5vw;
+            left:26vw;
+            list-style-type: none;
+            transform: rotate(-83deg);       
+        }
+        
+         section.infografik ul li:nth-child(4){
+            top: 19.4vw;
+            left:44.5vw;
+            list-style-type: none;
+            transform: rotate(-49.9deg);       
+        }
+        
+        section.infografik ul li:nth-child(5){
+            top: 25.8vw;
+            left:51.1vw;
+            list-style-type: none;
+            transform: rotate(-38deg);       
+        }
+        
+    </style>
 </head>
 
 <body>
     <header>
         <h1>Themenübersicht der Ausbildungsschwerpunkte</h1>
     </header>
-    <nav>
-        <ul id="navigation">
+    <section class="infografik">
+        <ul>
             <li><a href="#">Modul A / Kreativitätstechniken</a></li>
             <li><a href="#">Modul B / Bildbearbeitung</a></li>
             <li><a href="#">Modul C / Gestaltung und Technik</a></li>
@@ -27,7 +97,8 @@ Template Name: kopf
             <li><a href="#">Ohne Modul / Beratung und Planung</a></li>
             <li><a href="#">Ohne Modul / Praktikum und Prüfungsvorbereitung</a></li>
         </ul>
-    </nav>
+        <img src="img/kopf-zelle.svg" width="100%" alt="Infografik in Form eines Kopfes">
+    </section>
 </body>
 
 </html>

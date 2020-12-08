@@ -10,7 +10,8 @@ function register_my_menus() {
     array(
         'header-menu' => __( 'Header Menu' ),
         'mobile-menu' => __( 'Mobil Menu' ),
-        'footer-menu' => __( 'Footer Menu' )
+        'footer-menu' => __( 'Footer Menu' ),
+        'kopf-menu' => __( 'Kopf Menu' ) 
      )
    );
  }
