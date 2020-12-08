@@ -1,6 +1,6 @@
 <?php
 /* 
-Template Name: Infografik Kopf
+Template Name: Kreativitästechnik
 
 */
 
@@ -11,7 +11,7 @@ Template Name: Infografik Kopf
 
 <head>
     <meta charset="UTF-8">
-    <title>Mein Wordpress Entwurf</title>
+    <title>Kreativitätstechnik</title>
     <style>
         @import url("<?php echo get_stylesheet_directory_uri();?>/ style.css");
 
