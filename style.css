@@ -19,6 +19,7 @@ p,ul,ol {
 
 nav {
     position: sticky;
+    margin-top: 20px;
     color: #C6C6C6;
 }
 
@@ -29,18 +30,12 @@ nav ul{
 }
 nav ul a {
 	display: block;
-    color: #C6C6C6;
-    margin: 20px 0 0 20px;
+    color: lightslategray;
+    margin-left: 20px;
+    margin-top: 4px;
 	text-decoration: none;
-	font-size: 12px;
+	font-size: 14px;
 }
 nav ul a:hover {
 	color: darkgoldenrod;
-}
-
-article{
-    padding: 10px;
-    margin-bottom: 10px;
-	margin-top: 10px;
-	background-color: #FFFFFF;
 }
