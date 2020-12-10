@@ -18,6 +18,7 @@ Template Name: kopf
 </head>
 
 <body>
+   
     <section class="Kopf">
         <figure>
             <img src="<?php echo get_template_directory_uri(); ?>/img/kopf-zelle.svg" width=100% alt="Infografik in Form eines Kopfes">
