@@ -6,11 +6,11 @@
     <?php wp_head() ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 
     <nav>
         <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
     </nav>
 
 
-<h1><?php bloginfo('title'); ?></h1>
+    <h1><?php bloginfo('title'); ?></h1>

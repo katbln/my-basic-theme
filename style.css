@@ -28,6 +28,7 @@ h3,
 h4,
 h5,
 h6,
+
 p {
     padding: 1rem 5.5vw;
 }
@@ -65,6 +66,14 @@ header {
     background-color: #919eae;
 }
 
+/*---------------------
+Kopf
+---------------------*/
+
+
+/*-------------
+Diagramm Layout
+-------------*/
 a {
     text-decoration: none;
 }
@@ -155,6 +164,10 @@ section.infografik ul li:nth-child(9) {
     list-style-type: none;
     transform: rotate(+0.3deg);
 }
+
+/*-------------
+Kopf Farbe/Stil
+-------------*/
 
 section.infografik ul li:nth-child(1) a {
     color: #c6758e;
