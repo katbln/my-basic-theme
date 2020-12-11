@@ -1,6 +1,6 @@
 <?php
 /* 
-Template Name: Infografik Kopf Template
+Template Name: Infografik Kopf
 */
 ?>
 
