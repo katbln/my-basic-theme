@@ -1,12 +1,8 @@
 <?php
 /* 
-Template Name: Infografik Kopf
-
+Template Name: Infografik Kopf Template
 */
-
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="de">
