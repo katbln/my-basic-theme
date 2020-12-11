@@ -1,7 +1,5 @@
-<html>
-<body>
 	<footer>
-        <p>hier entsteht ein Footer</p>
+        <p>&#64;2020 Kathleen Rolke</p>
 	</footer>
 </body>
 </html>
