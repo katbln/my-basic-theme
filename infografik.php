@@ -10,6 +10,7 @@ Template Name: Infografik Kopf
     <section class="infografik">
         <?php wp_nav_menu( array( 'theme_location' => 'kopf-menu' ) ); ?>
         <!--<ul>
+           <li><a>Module</a
             <li><a href="#">Modul A / Kreativitätstechniken</a></li>
             <li><a href="#">Modul B / Bildbearbeitung</a></li>
             <li><a href="#">Modul C / Gestaltung und Technik</a></li>

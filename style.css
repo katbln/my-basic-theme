@@ -51,7 +51,7 @@ footer {
 }
 
 h1 {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto'sans-serif;
 }
 
 /*---------------------
@@ -71,7 +71,7 @@ header {
 }
 
 body.home header {
-      background-color: #919eae; 
+    background-color: #919eae;
 }
 
 body.home h1 {
@@ -79,6 +79,59 @@ body.home h1 {
 }
 
 
+/*---------------------
+NAVIGATION
+---------------------*/
+
+nav {
+    position: sticky;
+    top: 1em;
+    width: 100vw;
+    padding: 10px;
+    font-size: 12px;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 1em;
+    position: relative;
+}
+
+nav ul li a {
+    color: #919eae;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: palevioletred;
+}
+
+nav ul li ul {
+    display: None;
+    position: Absolute;
+    background: rgba(100, 100, 100, 0.9);
+    z-index: 1000;
+}
+
+nav ul li ul:hover,
+nav ul li:hover> ul,
+nav ul li:active> ul {
+    display: Block;
+}
+
+nav ul li ul li {
+    padding: 1em;
+}
+
+
+nav ul li ul li a {
+    color: #fff;
+}
 
 /*---------------------
 Kopf
@@ -94,6 +147,7 @@ a {
 
 section.infografik {
     position: relative;
+    z-index: 1;
 }
 
 section.infografik img {
