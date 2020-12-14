@@ -50,37 +50,42 @@ footer {
     font-size: 0.9em;
 }
 
+h1 {
+    font-family: 'Langar', cursive;
+}
+
 /*---------------------
 FARBE/STIL
 ---------------------*/
 
 h1 {
-    color: hsl(211, 16%, 68%);
+    color: hsl(200, 65%, 70%);
 }
 
 h2 {
-    color: hsl(211, 16%, 78%);
+    color: hsl(111, 16%, 68%);
 }
 
 header {
     background-color: #919eae;
 }
 
-body.home header{
-    
-   background-color: hsl(211, 16%, 88%); 
+body.home header {
+      background-color: hsl(200, 65%, 70%); 
 }
 
 body.home h1 {
-    background-color: #919eae;
+    color: hsl(200, 65%, 30%);
 }
+
+
 /*---------------------
 Kopf
 ---------------------*/
 
 
 /*-------------
-Diagramm Layout
+Kopf Layout
 -------------*/
 a {
     text-decoration: none;
