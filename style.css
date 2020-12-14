@@ -51,7 +51,7 @@ footer {
 }
 
 h1 {
-    font-family: 'Langar', cursive;
+    font-family: 'Roboto' sans-serif;
 }
 
 /*---------------------
@@ -59,11 +59,11 @@ FARBE/STIL
 ---------------------*/
 
 h1 {
-    color: hsl(200, 65%, 70%);
+    color: hsl(0, 1%, 98%);
 }
 
 h2 {
-    color: hsl(111, 16%, 68%);
+    color: hsl(0, 1%, 98%);
 }
 
 header {
@@ -71,12 +71,13 @@ header {
 }
 
 body.home header {
-      background-color: hsl(200, 65%, 70%); 
+      background-color: #919eae; 
 }
 
 body.home h1 {
-    color: hsl(200, 65%, 30%);
+    color: hsl(0, 1%, 98%);
 }
+
 
 
 /*---------------------
