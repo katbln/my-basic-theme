@@ -97,44 +97,39 @@ body.home h1 {
 Body Layout
 -------------*/
 
-div {
-    width: 100vw;
-    background-image: url(img/bg-a.png);
-    background-size: 100%;
-    border: 1px solid red;
-}
-
-div.mitte-bg {
-
-    min-height: 61.6vw;
-    /*            background-color: red;*/
-    background-image: url(img/bg-a-einz.png);
-    /*            background-repeat: no-repeat;*/
-    overflow: hidden;
-}
-
-div.oben-bg,
-div.unten-bg {
-    height: 10vw;
-    background-repeat: no-repeat;
-}
-
-div.oben-bg {
-            margin-top: 8vw;
+     div {
+            border: 1px solid red; /*  Diese Zeile auskommentieren um die roten Hilfslinien loszuwerden */
         }
 
-        div.unten-bg {
+        .container {
+            width: 100vw;
+            background-image: url(img/bg-a.png);
+            background-size: 100%;
+        }
+
+        .content-wrapper {
+
+            min-height: 61.6vw;
+            background-image: url(img/bg-a-einz.png);
+            overflow: hidden;
+        }
+
+        .above-content,
+        .below-content {
+            height: 10vw;
+            background-repeat: no-repeat;
+        }
+
+        .above-content {
+            margin-top: 20vw;
+        }
+
+        .below-content {
             background-position: bottom;
-            margin-bottom: 8vw;
+            margin-bottom: 20vw;
         }
 
-article {
-            font-size: 2em;
-            padding: 10vw;
-
-        }
-
-.logo-wrapper {
+        .logo-wrapper {
             width: 20vw;
         }
 
@@ -145,6 +140,8 @@ article {
             padding: 10vw;
 
         }
+
+
 /*---------------------
 NAVIGATION
 ---------------------*/
