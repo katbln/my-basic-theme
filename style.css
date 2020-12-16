@@ -134,7 +134,17 @@ article {
 
         }
 
+.logo-wrapper {
+            width: 20vw;
+        }
 
+        .logo img {}
+
+        article {
+            font-size: 2em;
+            padding: 10vw;
+
+        }
 /*---------------------
 NAVIGATION
 ---------------------*/

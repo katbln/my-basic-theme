@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Hintergrundbilder</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        div {
+            border: 1px solid red; /*  Diese Zeile auskommentieren um die roten Hilfslinien loszuwerden */
+        }
+
+        .container {
+            width: 100vw;
+            background-image: url(img/bg-a.png);
+            background-size: 100%;
+        }
+
+        .content-wrapper {
+            display: flex; /* display:flex im content-wrapper lässt Logo und Artikel nebeneinander stehen */
+            min-height: 61.6vw;
+            background-image: url(img/bg-a-einz.png);
+            overflow: hidden;
+        }
+
+        .above-content,
+        .below-content {
+            height: 10vw;
+            background-repeat: no-repeat;
+
+        }
+
+        .above-content {
+            margin-top: 20vw;
+        }
+
+        .below-content {
+            background-position: bottom;
+            margin-bottom: 20vw;
+        }
+
+        .logo-wrapper {
+            width: 20%; /* Für einfaches horizontales Flexlayout richt es die Breite der Flexelemente mit % zu definieren */
+        }
+
+        article {
+            width: 80%; /* Für einfaches horizontales Flexlayout richt es die Breite der Flexelemente mit % zu definieren */
+            font-size: 2em;
+            padding: 0 10vw;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container above-content"></div>
+    <div class="container content-wrapper">
+        <div class="logo-wrapper">
+            <img src="img/auge.svg" with="100%">
+        </div>
+        <article>
+
+            <h2>Überschrift</h2>
+            <p>Hier steht Text.</p>
+            <p>
+
+                Es gibt im Moment in diese Mannschaft, oh, einige Spieler vergessen ihnen Profi was sie sind. Ich lese nicht sehr viele Zeitungen, aber ich habe gehört viele Situationen. Erstens: wir haben nicht offensiv gespielt. Es gibt keine deutsche Mannschaft spielt offensiv und die Name offensiv wie Bayern. Letzte Spiel hatten wir in Platz drei Spitzen: Elber, Jancka und dann Zickler. Wir müssen nicht vergessen Zickler. </p>
+        </article>
+    </div>
+    <div class="container below-content"></div>
+
+</body></html>
