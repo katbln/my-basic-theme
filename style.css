@@ -43,11 +43,11 @@ TYPOGRAFIE
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 1.6vw;
+    font-size: 1.7vw;
 }
 
 footer {
-    font-size: 0.6em;
+    font-size: 0.9em;
 }
 
 h1 {
@@ -97,50 +97,91 @@ body.home h1 {
 Body Layout
 -------------*/
 
-     div {
-            border: 1px solid red; /*  Diese Zeile auskommentieren um die roten Hilfslinien loszuwerden */
-        }
+div {
+/*    border: 1px solid red;*/
+    /*  Diese Zeile auskommentieren um die roten Hilfslinien loszuwerden */
+}
 
-        .container {
-            width: 100vw;
-            background-image: url(img/bg-a.png);
-            background-size: 100%;
-        }
+.container {
+    width: 100vw;
+    background-image: url(img/bg-a.png);
+    background-size: 100%;
+}
 
-        .content-wrapper {
+.content-wrapper {
 
-            min-height: 61.6vw;
-            background-image: url(img/bg-a-einz.png);
-            overflow: hidden;
-        }
+    min-height: 61.6vw;
+    background-image: url(img/bg-a-einz.png);
+    overflow: hidden;
+}
 
-        .above-content,
-        .below-content {
-            height: 10vw;
-            background-repeat: no-repeat;
-        }
+.above-content,
+.below-content {
+    height: 5vw;
+    background-repeat: no-repeat;
+}
 
-        .above-content {
-            margin-top: 20vw;
-        }
+.below-content {
+    background-position: bottom;
+    margin-bottom: 20vw;
+}
 
-        .below-content {
-            background-position: bottom;
-            margin-bottom: 20vw;
-        }
+.logo-wrapper {
+    width: 25.7vw;
+    height: 19.93vw;
+    background-image: url(img/kasten-logo.svg);
+    background-repeat: no-repeat;
+    margin-left: 1.7rem; 
+}
 
-        .logo-wrapper {
-            width: 20vw;
-        }
+.logo-wrapper img {
+    
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 23%;  
+}
 
-        .logo img {}
+.kasten-name {
+    width: 27.53vw;
+    height: 30.51vw;
+    background-image: url(img/mo-a-name.svg);
+    background-repeat: no-repeat;
+    margin-left: 34vw;
+    margin-top: -20vw;
+}
 
-        article {
-            font-size: 2em;
-            padding: 10vw;
+.kasten-theorie {
+    width: 26vw;
+    height: 36vw;
+    background-image: url(img/mo-a1-theo.svg);
+    background-repeat: no-repeat;
+    margin-left: 1.7rem;
+    margin-top: -6vw;
+}
 
-        }
+.kasten-praxis {
+    width: 27.53vw;
+    height: 36vw;
+    background-image: url(img/mo-a1-pra.svg);
+    background-repeat: no-repeat;
+    margin-left: 34vw;
+    margin-top: -26.4vw;
+}
 
+.kopf-modul {
+    width: 34vw;
+    height: 46vw;
+    background-image: url(img/kopf-a.svg);
+    background-repeat: no-repeat;
+    margin-left: 64vw;
+    margin-top: -69.5vw;
+}
+
+article {
+    font-size: 1em;
+    padding: 10vw;
+}
+   
 
 /*---------------------
 NAVIGATION
@@ -150,9 +191,9 @@ nav {
     position: sticky;
     top: 1em;
     width: 100vw;
-    padding: 10px;
+    padding: 15px;
     padding-left: 1.7rem;
-    font-size: 12px;
+    font-size: 15px;
     z-index: 1000;
 }
 
@@ -178,8 +219,9 @@ nav ul li a:hover {
 nav ul li ul {
     display: None;
     position: Absolute;
-    background: rgba(100, 100, 100, 0.9);
+    background: rgba(145, 158, 174, 0.9);
     z-index: 1000;
+    font-size: 13.5px;
 }
 
 nav ul li ul:hover,
@@ -189,7 +231,7 @@ nav ul li:active > ul {
 }
 
 nav ul li ul li {
-    padding: 1em;
+    padding: 0.4em;
 }
 
 
@@ -372,4 +414,3 @@ section.infografik ul li:nth-child(9) a {
 section.infografik ul li:nth-child(9) a:hover {
     color: #b5b5b5;
 }
-
